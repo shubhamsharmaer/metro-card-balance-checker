@@ -1,12 +1,21 @@
-# Metro Card Balance Checker App
+![221_2x_shots_so](https://github.com/user-attachments/assets/6ded2dc6-2bfa-42cf-b36c-a6273effc234)
 
 **Metro Card Balance Checker** is a full-stack web application that allows users to easily check their metro card balance. The application consists of a React.js-based frontend and an Express.js-based backend. The client interface provides users with a sleek and intuitive platform to input their metro card details, while the backend handles API requests to fetch balance data securely.
+
+## ✨ Working Mode
+
+### Desktop View
+![52shots_so](https://github.com/user-attachments/assets/d42cad30-6529-4965-993e-916eb483fc4e)
+
+### Mobile View
+![818shots_so](https://github.com/user-attachments/assets/41df3581-4158-4bb2-b80a-5964c465302f)
+
 
 ## 🚀 Run Locally
 
 Follow the instructions below to run the **Metro Card Balance Checker App** locally on your system.
 
-### 🛠️ Pre-requisites
+### 🛠️ System Pre-requisites
 
 Before running this project locally, ensure your system meets the following requirements:
 
@@ -27,7 +36,67 @@ Before running this project locally, ensure your system meets the following requ
 ### 🔧 Steps to Set Up the Client
 
 1. **Clone the repository**:
+   
    ```bash
    git clone https://github.com/shubhamsharmaer/metro-card-balance-checker.git
+   cd .\metro-card-balance-checker
    ```
-2. 
+3. **Navigate to the `client`**:
+   
+   ```bash
+   cd .\metro-balance-checker\client\
+   ```
+5. **Install the dependencies**:
+   
+   ```bash
+   npm install
+   ```
+7. **Run the development server**:
+   
+   ```bash
+   npm run dev
+   ```
+   The client will now be running on `http://localhost:5173`
+
+### 🔧 Steps to Set Up the Server
+
+1. **Navigate to the `server`**:
+   
+   ```bash
+   cd ../server
+   ```
+3. **Install the dependencies**:
+   
+   ```bash
+   npm install
+   ```
+5. Create a new file named `.env.local` in the root directory and copy the environment variables from `.envSample`
+   ```makefile
+   PORT=5000
+   VITE_API_URL=http://localhost:5000/api/card
+   ```
+6. Run Backend Server;
+   ```bash
+   node app.js
+   ```
+   The server will now be running on `http://localhost:5000`
+
+## 📜 Features
+- Check Metro Card Balance: Easily input your metro card number and check your balance.
+- Real-time Updates: Get accurate and real-time metro card balance using our secure backend.
+- Responsive Design: Optimized for both desktop and mobile devices with clean UI using Tailwind CSS.
+
+## 🤝 Contributing
+You can help improve code quality, fix bugs, or add new features to make the app more robust.
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
+
+## 📧 Contact
+For any inquiries, feel free to contact the project maintainer:
+
+Shubham Sharma -  [LinkedIn](https://www.linkedin.com/in/shubhamsharmaer/) | [Email](shubhamgetmail@gmail.com)
