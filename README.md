@@ -1,4 +1,5 @@
-![221_2x_shots_so](https://github.com/user-attachments/assets/6ded2dc6-2bfa-42cf-b36c-a6273effc234)
+
+![660_2x_shots_so](https://github.com/user-attachments/assets/0f529c74-8c7b-426e-878a-6786f4e95fda)
 
 **Metro Card Balance Checker** is a full-stack web application that allows users to easily check their metro card balance. The application consists of a React.js-based frontend and an Express.js-based backend. The client interface provides users with a sleek and intuitive platform to input their metro card details, while the backend handles API requests to fetch balance data securely.
 
